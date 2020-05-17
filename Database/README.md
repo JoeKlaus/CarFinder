@@ -6,7 +6,7 @@
 
 ### Create the Database
 
-```
+```sql
 USE master;
 GO
 
@@ -22,7 +22,7 @@ GO
 
 ### Create the Tables
 
-```
+```sql
 CREATE TABLE Buyers
 (
 	buyerid		INT			IDENTITY(1,1)	NOT NULL,
@@ -106,7 +106,7 @@ GO
 
 ### Inserting Sample Data
 
-```
+```sql
 INSERT INTO dbo.Buyers(email, username, password, address, city, state, zipcode, phonenumber)
 VALUES
 (N'buyer1@gmail.com', N'buyer1username', N'buyer1password', N'111 Buyer Street', N'BuyerVille', N'CO', 12345, N'111 111 1111'),
