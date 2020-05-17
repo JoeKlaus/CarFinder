@@ -79,7 +79,7 @@ CREATE TABLE Buyers_Sellers
 );
 GO
 ```
-### Create the Vehicle Table
+### Create the Vehicles Table
 This table stores all of the listed Vehicles, along with their features, price, condition, their Seller, etc.
 
 ```sql
@@ -105,6 +105,8 @@ CREATE TABLE Vehicles
 	doors			INT					    NULL,
 	sellerid		INT					NOT NULL,
 	CONSTRAINT PK_Vehicles PRIMARY KEY (vehicleid)
+	CONSTRAINT FK_Vehicles_Sellers FOREIGN KEY (sellerid)
+	REFERENCES Sellers(sellerid)
 );
 GO
 ```
