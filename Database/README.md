@@ -1,11 +1,12 @@
 # Car Finder Database
+
 ## Phyical Database Design
 
 ![Physical Relationship Diagram](CarFinderERD.png)
 
-```
-----------------Create the Database----------------
+### Create the Database
 
+```
 USE master;
 GO
 
@@ -17,9 +18,11 @@ GO
 
 USE CarFinderDb;
 GO
+```
 
-----------------Create the Tables----------------
+### Create the Tables
 
+```
 CREATE TABLE Buyers
 (
 	buyerid		INT			IDENTITY(1,1)	NOT NULL,
@@ -99,9 +102,11 @@ CREATE TABLE Buyers_Vehicles
 	REFERENCES Buyers(buyerid)
 );
 GO
+```
 
-----------------Insert Values into Tables----------------
+### Inserting Sample Data
 
+```
 INSERT INTO dbo.Buyers(email, username, password, address, city, state, zipcode, phonenumber)
 VALUES
 (N'buyer1@gmail.com', N'buyer1username', N'buyer1password', N'111 Buyer Street', N'BuyerVille', N'CO', 12345, N'111 111 1111'),
@@ -125,24 +130,4 @@ VALUES
 (2, N'12345678946745678', '2019-01-16', '2019-02-21', N'Used', 2012, N'Chevrolet', N'Silverado', N'Pickup', N'Grey', 10550, 65620, N'Automatic', N'RWD', N'Regular', 16, 6, 2),
 (3, N'18195678912345678', '2020-02-01','2020-05-10', N'New', 2018, N'Jeep', N'Wrangler', N'SUV', N'Red', 31999, 25782, N'Manual', N'4x4', N'Regular', 18, 4, 4),
 (5, N'12345678912343498', '2018-11-28', '2018-11-30', N'Used', 2013, N'Honda', N'Civic', N'Cedan', N'White', 12999, 85642, N'Manual', N'RWD', N'Regular', 24, 4, 4);
-
-----------------Perform Test Queries----------------
-
-SELECT *
-FROM dbo.Buyers;
-
-SELECT *
-FROM dbo.Sellers;
-
-SELECT *
-FROM dbo.Vehicles;
-
-SELECT S.sellerid, V.vehicleid
-FROM dbo.Sellers AS S
-CROSS JOIN dbo.Vehicles AS V;
-
-SELECT S.sellerid, V.vehicleid
-FROM dbo.Sellers AS S
-INNER JOIN dbo.Vehicles AS V
-ON S.sellerid = V.sellerid;
 ```
