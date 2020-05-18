@@ -2,7 +2,7 @@
 
 ## Phyical Database Design
 
-![Physical Relationship Diagram](CarFinderDiagram.jpeg)
+![Physical Relationship Diagram](CarFinderDiagram1.jpeg)
 
 Above is the design for the CarFinder database. It consists of a Sellers table, a Users table, and a Vehicles table, and demonstrates the relationships between them.
 
