@@ -23,7 +23,7 @@ GO
 ```
 
 ### Create the Buyers Table
-This will store potential Buyers' username and password, along with basic contact information.
+This will store potential Buyers' usernames and passwords, along with basic contact information.
 
 ```sql
 CREATE TABLE Buyers
@@ -44,7 +44,7 @@ GO
 ```
 
 ### Create the Sellers Table
-This will store potential Sellers' username and password, along with basic contact information and the Vehicles they are listing on the application.
+This will store potential Sellers' usernames and passwords, along with basic contact information and the Vehicles they are listing on the application.
 
 ```sql
 CREATE TABLE Sellers
@@ -58,7 +58,6 @@ CREATE TABLE Sellers
 	state		NVARCHAR(5)				NOT NULL,
 	zipcode		INT					NOT NULL,
 	phonenumber NVARCHAR(15)				NOT NULL,
-	vehicleid	INT					    NULL,
 	CONSTRAINT PK_Sellers PRIMARY KEY (sellerid),
 	CONSTRAINT UC_Email2 UNIQUE (email)
 );
