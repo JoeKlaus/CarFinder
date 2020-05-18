@@ -44,7 +44,7 @@ GO
 ```
 
 ### Create the Sellers Table
-This will store potential Sellers' usernames and passwords, along with basic contact information and the Vehicles they are listing on the application.
+This will store potential Sellers' usernames and passwords, along with basic contact information.
 
 ```sql
 CREATE TABLE Sellers
