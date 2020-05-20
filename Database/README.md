@@ -96,7 +96,7 @@ CREATE TABLE Vehicles
 	color			NVARCHAR(10)				    NULL,
 	price			INT					    NULL,
 	mileage			INT					    NULL,
-	transmission	NVARCHAR(10)					    NULL,
+	transmission		NVARCHAR(10)					    NULL,
 	drivetrain		NVARCHAR(10)				    NULL,
 	fueltype		NVARCHAR(10)				    NULL,
 	fueleconomy		INT					    NULL,
