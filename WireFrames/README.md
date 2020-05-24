@@ -1,27 +1,27 @@
 ![Login Page](Slide1.JPG)
 
-![](Slide2.jpeg)
+![](Slide2.JPG)
 
-![](Slide3.jpeg)
+![](Slide3.JPG)
 
-![](Slide4.jpeg)
+![](Slide4.JPG)
 
-![](Slide5.jpeg)
+![](Slide5.JPG)
 
-![](Slide6.jpeg)
+![](Slide6.JPG)
 
-![](Slide7.jpeg)
+![](Slide7.JPG)
 
-![](Slide8.jpeg)
+![](Slide8.JPG)
 
-![](Slide9.jpeg)
+![](Slide9.JPG)
 
-![](Slide10.jpeg)
+![](Slide10.JPG)
 
-![](Slide11.jpeg)
+![](Slide11.JPG)
 
-![](Slide12.jpeg)
+![](Slide12.JPG)
 
-![](Slide13.jpeg)
+![](Slide13.JPG)
 
-![](Slide14.jpeg)
+![](Slide14.JPG)
