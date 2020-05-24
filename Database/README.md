@@ -1,6 +1,6 @@
 # Car Finder Database
 
-## Phyical Database Design
+## Physical Database Design
 
 ![Physical Relationship Diagram](CarFinderDiagram1.jpeg)
 
