@@ -1,4 +1,4 @@
-![Login Page](Slide1.jpeg)
+![Login Page](Slide1.jpg)
 
 ![](Slide2.jpeg)
 
